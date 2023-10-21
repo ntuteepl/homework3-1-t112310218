@@ -2,13 +2,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-void printString(char String[], bool TurnLine){
-    for(int i; i < strlen(String); i ++){
-        printf("%c", String[i]);
-    }
-    if(TurnLine) printf("\n");
-}
-
 int main()
 {
     int s1, d1, s2, d2, s3, d3;
